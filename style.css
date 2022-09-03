@@ -143,39 +143,4 @@ img {
     background-color: var(--des-blue);
     border-radius: 10px 0 0 10px;
   }
-  /* .main-head {
-    font-family: "Inter", sans-serif;
-    font-size: 3rem;
-    font-weight: 700;
-  } */
-
-  /* .statistic {
-    display: flex;
-    gap: 5rem;
-    padding: 2rem 0;
-  } */
-  .text-content {
-    font-size: 15px;
-    font-weight: 400;
-    font-family: "Inter", sans-serif;
-    padding: 1rem 0;
-  }
-  .stats-name {
-    text-transform: uppercase;
-  }
-  img {
-    height: 470px;
-    object-fit: cover;
-    border-radius: 0 10px 10px 0;
-    /* position: relative; */
-  }
-  .overlay {
-    position: absolute;
-    width: 570px;
-    height: 470px;
-    border-radius: 0 10px 10px 0;
-    background: var(--soft-violet);
-    overflow: hidden;
-    opacity: 50%;
-  }
 }
