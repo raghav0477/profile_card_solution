@@ -24,6 +24,10 @@ section {
   margin: 0 auto;
   width: 1200px;
   transform: translateY(50%);
+  overflow: hidden;
+  background-color: var(--soft-violet);
+  border-radius: 10px;
+
 }
 .text-area {
   padding: 3rem; 
@@ -61,8 +65,10 @@ img {
   height: 400px;
   object-fit: cover;
   border-radius: 0 10px 10px 0;
+  mix-blend-mode:multiply;
+  /* opacity: 50%; */
 }
-.overlay {
+/* .overlay {
   position: absolute;
   width: 484px;
   height: 400px;
@@ -70,7 +76,7 @@ img {
   background: var(--soft-violet);
   overflow: hidden;
   opacity: 50%;
-}
+} */
 .attribution {
   position: fixed;
   bottom: 0;
@@ -84,8 +90,9 @@ img {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    transform: translateY(2%);
-    width: 100%;
+    transform: translateY(5%);
+    width: 23rem;
+    height: 48rem;
   }
   .text-area {
     width: 335px;
